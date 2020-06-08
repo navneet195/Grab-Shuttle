@@ -2,7 +2,7 @@
 GrabShuttle is a new service that allows pre booking car from a list of fixed routes.
 Add project file on your project!
 
-# Live Location Sharing
+# Cab Service and Live Location Sharing
 The primary feature of Live Location Sharing. Live Location Sharing is useful for:
 
 Workforce productivity apps with messaging and customer support capabilities
