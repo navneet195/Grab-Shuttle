@@ -1,4 +1,4 @@
-# Grab Shuttle
+# Grab Shuttle - the app for user
 GrabShuttle is a new service that allows pre booking car from a list of fixed routes.
 Add project file on your project!
 
