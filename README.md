@@ -21,7 +21,7 @@ In the Firebase console, click Add project, then select or enter a Project name.
 
 download GoogleService-Info.plist file and add on your project.
 
-![](https://github.com/navneet195/Grab-Shuttle/blob/master/info.png)
+![](https://github.com/navneet195/Grab-Shuttle/blob/master/info2.png)
 
 # Getting Started
 The main goal of Grab Shuttle is to provide an easy way to work with location related functionalities (gps tracking, ip tracking, autocomplete of places, geocoding, reverse gecoding...) with ease.
