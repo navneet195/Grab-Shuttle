@@ -2,11 +2,6 @@
 GrabShuttle is a new service that allows pre booking car from a list of fixed routes.
 Add project file on your project!
 
-# Create a Firebase project
-In the Firebase console, click Add project, then select or enter a Project name. If you have an existing Google Cloud Platform (GCP) project, you can select the project from the dropdown menu to add Firebase resources to that project.
-
-download GoogleService-Info.plist file and add on your project.
-
 # Cab Service and Live Location Sharing
 The primary feature of Live Location Sharing. Live Location Sharing is useful for:
 
@@ -20,6 +15,13 @@ It helps solve the user's anxiety of “where are you”.
 # Requirements
 `OS X 10.15.5+`
 `Xcode 11.5 or above`
+
+# Create a Firebase project
+In the Firebase console, click Add project, then select or enter a Project name. If you have an existing Google Cloud Platform (GCP) project, you can select the project from the dropdown menu to add Firebase resources to that project.
+
+download GoogleService-Info.plist file and add on your project.
+
+![](https://github.com/navneet195/Grab-Shuttle/blob/master/info.png)
 
 # Getting Started
 The main goal of Grab Shuttle is to provide an easy way to work with location related functionalities (gps tracking, ip tracking, autocomplete of places, geocoding, reverse gecoding...) with ease.
