@@ -3,27 +3,83 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4E26300F248CD1A700026E04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E26300E248CD1A700026E04 /* AppDelegate.swift */; };
-		4E263011248CD1A700026E04 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E263010248CD1A700026E04 /* SceneDelegate.swift */; };
-		4E263013248CD1A700026E04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E263012248CD1A700026E04 /* ViewController.swift */; };
 		4E263016248CD1A700026E04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E263014248CD1A700026E04 /* Main.storyboard */; };
 		4E263018248CD1AC00026E04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E263017248CD1AC00026E04 /* Assets.xcassets */; };
-		4E26301B248CD1AC00026E04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E263019248CD1AC00026E04 /* LaunchScreen.storyboard */; };
+		4ED4110D248CD27B001CFB18 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED410E2248CD27B001CFB18 /* Service.swift */; };
+		4ED4110E248CD27B001CFB18 /* RiderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED410E3248CD27B001CFB18 /* RiderService.swift */; };
+		4ED4110F248CD27B001CFB18 /* DriverService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED410E4248CD27B001CFB18 /* DriverService.swift */; };
+		4ED41110248CD27B001CFB18 /* LocationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED410E6248CD27B001CFB18 /* LocationHandler.swift */; };
+		4ED41111248CD27B001CFB18 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED410E7248CD27B001CFB18 /* Extensions.swift */; };
+		4ED41112248CD27B001CFB18 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED410EA248CD27B001CFB18 /* Constants.swift */; };
+		4ED41113248CD27B001CFB18 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED410ED248CD27B001CFB18 /* SettingsController.swift */; };
+		4ED41114248CD27B001CFB18 /* AddLocationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED410EE248CD27B001CFB18 /* AddLocationController.swift */; };
+		4ED41115248CD27B001CFB18 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED410EF248CD27B001CFB18 /* MenuController.swift */; };
+		4ED41116248CD27B001CFB18 /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED410F1248CD27B001CFB18 /* Trip.swift */; };
+		4ED41117248CD27B001CFB18 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED410F2248CD27B001CFB18 /* User.swift */; };
+		4ED41118248CD27B001CFB18 /* SettingsHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED410F4248CD27B001CFB18 /* SettingsHeader.swift */; };
+		4ED41119248CD27B001CFB18 /* LocationInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED410F5248CD27B001CFB18 /* LocationInputView.swift */; };
+		4ED4111A248CD27B001CFB18 /* MenuHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED410F6248CD27B001CFB18 /* MenuHeader.swift */; };
+		4ED4111B248CD27B001CFB18 /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED410F7248CD27B001CFB18 /* CircularProgressView.swift */; };
+		4ED4111C248CD27B001CFB18 /* LocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED410F8248CD27B001CFB18 /* LocationCell.swift */; };
+		4ED4111D248CD27B001CFB18 /* LocationInputActivationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED410F9248CD27B001CFB18 /* LocationInputActivationView.swift */; };
+		4ED4111E248CD27B001CFB18 /* AuthButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED410FA248CD27B001CFB18 /* AuthButton.swift */; };
+		4ED4111F248CD27B001CFB18 /* DriverAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED410FB248CD27B001CFB18 /* DriverAnnotation.swift */; };
+		4ED41120248CD27B001CFB18 /* RideActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED410FC248CD27B001CFB18 /* RideActionView.swift */; };
+		4ED41122248CD27B001CFB18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ED41100248CD27B001CFB18 /* LaunchScreen.storyboard */; };
+		4ED41123248CD27B001CFB18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED41102248CD27B001CFB18 /* AppDelegate.swift */; };
+		4ED41124248CD27B001CFB18 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED41103248CD27B001CFB18 /* SceneDelegate.swift */; };
+		4ED41125248CD27B001CFB18 /* PickupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED41107248CD27B001CFB18 /* PickupController.swift */; };
+		4ED41126248CD27B001CFB18 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED41108248CD27B001CFB18 /* HomeController.swift */; };
+		4ED41127248CD27B001CFB18 /* ContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED41109248CD27B001CFB18 /* ContainerView.swift */; };
+		4ED41128248CD27B001CFB18 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED4110B248CD27B001CFB18 /* LoginController.swift */; };
+		4ED41129248CD27B001CFB18 /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED4110C248CD27B001CFB18 /* SignUpController.swift */; };
+		4ED4112B248CD649001CFB18 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 4ED4112A248CD649001CFB18 /* Podfile */; };
+		4ED4112D248CD671001CFB18 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4ED4112C248CD671001CFB18 /* GoogleService-Info.plist */; };
+		F9BA698DAC52D8481A327091 /* Pods_GrabShuttle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA9524DB67284C0C81FEDA77 /* Pods_GrabShuttle.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4E26300B248CD1A700026E04 /* GrabShuttle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrabShuttle.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4E26300E248CD1A700026E04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4E263010248CD1A700026E04 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4E263012248CD1A700026E04 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4E26300B248CD1A700026E04 /* Grab Shuttle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Grab Shuttle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E263015248CD1A700026E04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4E263017248CD1AC00026E04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4E26301A248CD1AC00026E04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4E26301C248CD1AC00026E04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4ED410E2248CD27B001CFB18 /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		4ED410E3248CD27B001CFB18 /* RiderService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RiderService.swift; sourceTree = "<group>"; };
+		4ED410E4248CD27B001CFB18 /* DriverService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DriverService.swift; sourceTree = "<group>"; };
+		4ED410E6248CD27B001CFB18 /* LocationHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationHandler.swift; sourceTree = "<group>"; };
+		4ED410E7248CD27B001CFB18 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		4ED410EA248CD27B001CFB18 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4ED410ED248CD27B001CFB18 /* SettingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		4ED410EE248CD27B001CFB18 /* AddLocationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddLocationController.swift; sourceTree = "<group>"; };
+		4ED410EF248CD27B001CFB18 /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		4ED410F1248CD27B001CFB18 /* Trip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
+		4ED410F2248CD27B001CFB18 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		4ED410F4248CD27B001CFB18 /* SettingsHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsHeader.swift; sourceTree = "<group>"; };
+		4ED410F5248CD27B001CFB18 /* LocationInputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationInputView.swift; sourceTree = "<group>"; };
+		4ED410F6248CD27B001CFB18 /* MenuHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuHeader.swift; sourceTree = "<group>"; };
+		4ED410F7248CD27B001CFB18 /* CircularProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
+		4ED410F8248CD27B001CFB18 /* LocationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationCell.swift; sourceTree = "<group>"; };
+		4ED410F9248CD27B001CFB18 /* LocationInputActivationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationInputActivationView.swift; sourceTree = "<group>"; };
+		4ED410FA248CD27B001CFB18 /* AuthButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthButton.swift; sourceTree = "<group>"; };
+		4ED410FB248CD27B001CFB18 /* DriverAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DriverAnnotation.swift; sourceTree = "<group>"; };
+		4ED410FC248CD27B001CFB18 /* RideActionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RideActionView.swift; sourceTree = "<group>"; };
+		4ED41101248CD27B001CFB18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4ED41102248CD27B001CFB18 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4ED41103248CD27B001CFB18 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4ED41107248CD27B001CFB18 /* PickupController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickupController.swift; sourceTree = "<group>"; };
+		4ED41108248CD27B001CFB18 /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		4ED41109248CD27B001CFB18 /* ContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerView.swift; sourceTree = "<group>"; };
+		4ED4110B248CD27B001CFB18 /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		4ED4110C248CD27B001CFB18 /* SignUpController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
+		4ED4112A248CD649001CFB18 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
+		4ED4112C248CD671001CFB18 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		654F64D1DD85DC9BC871F040 /* Pods-GrabShuttle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrabShuttle.release.xcconfig"; path = "Target Support Files/Pods-GrabShuttle/Pods-GrabShuttle.release.xcconfig"; sourceTree = "<group>"; };
+		DA9524DB67284C0C81FEDA77 /* Pods_GrabShuttle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GrabShuttle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F20290842AA81BADCE6F82CC /* Pods-GrabShuttle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrabShuttle.debug.xcconfig"; path = "Target Support Files/Pods-GrabShuttle/Pods-GrabShuttle.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9BA698DAC52D8481A327091 /* Pods_GrabShuttle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,13 +99,15 @@
 			children = (
 				4E26300D248CD1A700026E04 /* GrabShuttle */,
 				4E26300C248CD1A700026E04 /* Products */,
+				9A2BDC2DDC43094D46AA3EBB /* Pods */,
+				A8C57D30034C66ECBCE43CF0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		4E26300C248CD1A700026E04 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4E26300B248CD1A700026E04 /* GrabShuttle.app */,
+				4E26300B248CD1A700026E04 /* Grab Shuttle.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,15 +115,186 @@
 		4E26300D248CD1A700026E04 /* GrabShuttle */ = {
 			isa = PBXGroup;
 			children = (
-				4E26300E248CD1A700026E04 /* AppDelegate.swift */,
-				4E263010248CD1A700026E04 /* SceneDelegate.swift */,
-				4E263012248CD1A700026E04 /* ViewController.swift */,
+				4ED410DF248CD27B001CFB18 /* GrabShuttle */,
+				4ED410FD248CD27B001CFB18 /* ProtectFile */,
 				4E263014248CD1A700026E04 /* Main.storyboard */,
 				4E263017248CD1AC00026E04 /* Assets.xcassets */,
-				4E263019248CD1AC00026E04 /* LaunchScreen.storyboard */,
 				4E26301C248CD1AC00026E04 /* Info.plist */,
 			);
 			path = GrabShuttle;
+			sourceTree = "<group>";
+		};
+		4ED410DF248CD27B001CFB18 /* GrabShuttle */ = {
+			isa = PBXGroup;
+			children = (
+				4ED410E0248CD27B001CFB18 /* ViewModel */,
+				4ED410E5248CD27B001CFB18 /* Extension */,
+				4ED410E8248CD27B001CFB18 /* Agent */,
+				4ED410EB248CD27B001CFB18 /* Utilites */,
+				4ED410F0248CD27B001CFB18 /* Model */,
+				4ED410F3248CD27B001CFB18 /* View */,
+				4ED410FF248CD27B001CFB18 /* Applauncher */,
+				4ED41104248CD27B001CFB18 /* ViewController */,
+			);
+			path = GrabShuttle;
+			sourceTree = "<group>";
+		};
+		4ED410E0248CD27B001CFB18 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4ED410E1248CD27B001CFB18 /* Service */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4ED410E1248CD27B001CFB18 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				4ED410E2248CD27B001CFB18 /* Service.swift */,
+				4ED410E3248CD27B001CFB18 /* RiderService.swift */,
+				4ED410E4248CD27B001CFB18 /* DriverService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		4ED410E5248CD27B001CFB18 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4ED410E6248CD27B001CFB18 /* LocationHandler.swift */,
+				4ED410E7248CD27B001CFB18 /* Extensions.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		4ED410E8248CD27B001CFB18 /* Agent */ = {
+			isa = PBXGroup;
+			children = (
+				4ED410E9248CD27B001CFB18 /* Constants */,
+			);
+			path = Agent;
+			sourceTree = "<group>";
+		};
+		4ED410E9248CD27B001CFB18 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				4ED410EA248CD27B001CFB18 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		4ED410EB248CD27B001CFB18 /* Utilites */ = {
+			isa = PBXGroup;
+			children = (
+				4ED410EC248CD27B001CFB18 /* SideMenu */,
+			);
+			path = Utilites;
+			sourceTree = "<group>";
+		};
+		4ED410EC248CD27B001CFB18 /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				4ED410ED248CD27B001CFB18 /* SettingsController.swift */,
+				4ED410EE248CD27B001CFB18 /* AddLocationController.swift */,
+				4ED410EF248CD27B001CFB18 /* MenuController.swift */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		4ED410F0248CD27B001CFB18 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4ED410F1248CD27B001CFB18 /* Trip.swift */,
+				4ED410F2248CD27B001CFB18 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4ED410F3248CD27B001CFB18 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4ED410F4248CD27B001CFB18 /* SettingsHeader.swift */,
+				4ED410F5248CD27B001CFB18 /* LocationInputView.swift */,
+				4ED410F6248CD27B001CFB18 /* MenuHeader.swift */,
+				4ED410F7248CD27B001CFB18 /* CircularProgressView.swift */,
+				4ED410F8248CD27B001CFB18 /* LocationCell.swift */,
+				4ED410F9248CD27B001CFB18 /* LocationInputActivationView.swift */,
+				4ED410FA248CD27B001CFB18 /* AuthButton.swift */,
+				4ED410FB248CD27B001CFB18 /* DriverAnnotation.swift */,
+				4ED410FC248CD27B001CFB18 /* RideActionView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4ED410FD248CD27B001CFB18 /* ProtectFile */ = {
+			isa = PBXGroup;
+			children = (
+				4ED4112C248CD671001CFB18 /* GoogleService-Info.plist */,
+				4ED4112A248CD649001CFB18 /* Podfile */,
+			);
+			path = ProtectFile;
+			sourceTree = "<group>";
+		};
+		4ED410FF248CD27B001CFB18 /* Applauncher */ = {
+			isa = PBXGroup;
+			children = (
+				4ED41100248CD27B001CFB18 /* LaunchScreen.storyboard */,
+				4ED41102248CD27B001CFB18 /* AppDelegate.swift */,
+				4ED41103248CD27B001CFB18 /* SceneDelegate.swift */,
+			);
+			path = Applauncher;
+			sourceTree = "<group>";
+		};
+		4ED41104248CD27B001CFB18 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4ED41105248CD27B001CFB18 /* Module */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		4ED41105248CD27B001CFB18 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				4ED41106248CD27B001CFB18 /* Home */,
+				4ED4110A248CD27B001CFB18 /* Authentication */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		4ED41106248CD27B001CFB18 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				4ED41107248CD27B001CFB18 /* PickupController.swift */,
+				4ED41108248CD27B001CFB18 /* HomeController.swift */,
+				4ED41109248CD27B001CFB18 /* ContainerView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		4ED4110A248CD27B001CFB18 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				4ED4110B248CD27B001CFB18 /* LoginController.swift */,
+				4ED4110C248CD27B001CFB18 /* SignUpController.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		9A2BDC2DDC43094D46AA3EBB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F20290842AA81BADCE6F82CC /* Pods-GrabShuttle.debug.xcconfig */,
+				654F64D1DD85DC9BC871F040 /* Pods-GrabShuttle.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A8C57D30034C66ECBCE43CF0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA9524DB67284C0C81FEDA77 /* Pods_GrabShuttle.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +304,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4E26301F248CD1AC00026E04 /* Build configuration list for PBXNativeTarget "GrabShuttle" */;
 			buildPhases = (
+				07061B149C5304E3F7F38E0C /* [CP] Check Pods Manifest.lock */,
 				4E263007248CD1A700026E04 /* Sources */,
 				4E263008248CD1A700026E04 /* Frameworks */,
 				4E263009248CD1A700026E04 /* Resources */,
+				435B966C1DD2EF6CD72AC0F9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -84,7 +316,7 @@
 			);
 			name = GrabShuttle;
 			productName = GrabShuttle;
-			productReference = 4E26300B248CD1A700026E04 /* GrabShuttle.app */;
+			productReference = 4E26300B248CD1A700026E04 /* Grab Shuttle.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -125,22 +357,90 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E26301B248CD1AC00026E04 /* LaunchScreen.storyboard in Resources */,
+				4ED4112B248CD649001CFB18 /* Podfile in Resources */,
 				4E263018248CD1AC00026E04 /* Assets.xcassets in Resources */,
+				4ED41122248CD27B001CFB18 /* LaunchScreen.storyboard in Resources */,
 				4E263016248CD1A700026E04 /* Main.storyboard in Resources */,
+				4ED4112D248CD671001CFB18 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07061B149C5304E3F7F38E0C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GrabShuttle-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		435B966C1DD2EF6CD72AC0F9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GrabShuttle/Pods-GrabShuttle-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GrabShuttle/Pods-GrabShuttle-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GrabShuttle/Pods-GrabShuttle-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4E263007248CD1A700026E04 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E263013248CD1A700026E04 /* ViewController.swift in Sources */,
-				4E26300F248CD1A700026E04 /* AppDelegate.swift in Sources */,
-				4E263011248CD1A700026E04 /* SceneDelegate.swift in Sources */,
+				4ED41123248CD27B001CFB18 /* AppDelegate.swift in Sources */,
+				4ED41114248CD27B001CFB18 /* AddLocationController.swift in Sources */,
+				4ED4111E248CD27B001CFB18 /* AuthButton.swift in Sources */,
+				4ED41120248CD27B001CFB18 /* RideActionView.swift in Sources */,
+				4ED4111F248CD27B001CFB18 /* DriverAnnotation.swift in Sources */,
+				4ED41129248CD27B001CFB18 /* SignUpController.swift in Sources */,
+				4ED4110F248CD27B001CFB18 /* DriverService.swift in Sources */,
+				4ED4110E248CD27B001CFB18 /* RiderService.swift in Sources */,
+				4ED4111A248CD27B001CFB18 /* MenuHeader.swift in Sources */,
+				4ED41115248CD27B001CFB18 /* MenuController.swift in Sources */,
+				4ED41118248CD27B001CFB18 /* SettingsHeader.swift in Sources */,
+				4ED41119248CD27B001CFB18 /* LocationInputView.swift in Sources */,
+				4ED41128248CD27B001CFB18 /* LoginController.swift in Sources */,
+				4ED41127248CD27B001CFB18 /* ContainerView.swift in Sources */,
+				4ED41111248CD27B001CFB18 /* Extensions.swift in Sources */,
+				4ED41117248CD27B001CFB18 /* User.swift in Sources */,
+				4ED4111D248CD27B001CFB18 /* LocationInputActivationView.swift in Sources */,
+				4ED4111B248CD27B001CFB18 /* CircularProgressView.swift in Sources */,
+				4ED4110D248CD27B001CFB18 /* Service.swift in Sources */,
+				4ED41116248CD27B001CFB18 /* Trip.swift in Sources */,
+				4ED41125248CD27B001CFB18 /* PickupController.swift in Sources */,
+				4ED41113248CD27B001CFB18 /* SettingsController.swift in Sources */,
+				4ED41124248CD27B001CFB18 /* SceneDelegate.swift in Sources */,
+				4ED4111C248CD27B001CFB18 /* LocationCell.swift in Sources */,
+				4ED41126248CD27B001CFB18 /* HomeController.swift in Sources */,
+				4ED41110248CD27B001CFB18 /* LocationHandler.swift in Sources */,
+				4ED41112248CD27B001CFB18 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,10 +455,10 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		4E263019248CD1AC00026E04 /* LaunchScreen.storyboard */ = {
+		4ED41100248CD27B001CFB18 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4E26301A248CD1AC00026E04 /* Base */,
+				4ED41101248CD27B001CFB18 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -282,6 +582,7 @@
 		};
 		4E263020248CD1AC00026E04 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F20290842AA81BADCE6F82CC /* Pods-GrabShuttle.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -291,8 +592,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.navneetbaldha.GrabShuttle;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.navneetbaldha.Grab;
+				PRODUCT_NAME = "Grab Shuttle";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,6 +601,7 @@
 		};
 		4E263021248CD1AC00026E04 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 654F64D1DD85DC9BC871F040 /* Pods-GrabShuttle.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -309,8 +611,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.navneetbaldha.GrabShuttle;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.navneetbaldha.Grab;
+				PRODUCT_NAME = "Grab Shuttle";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
