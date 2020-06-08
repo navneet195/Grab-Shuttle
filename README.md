@@ -9,8 +9,7 @@ Add project file on your project!
 `Xcode 11.5 or above`
 
 # Usage
-Drag and drop ***Introductions and Common*** folder on your app.
-For this example, ensure 3 pngs exist (provided in the example repo) in the project's asset catalog, in this case 1.png, 2.png and 3.png
+Firebase is an app development platform with tools to help you build, grow and monetize your app. More information about Firebase can be found at https://firebase.google.com.
 
 # Install Firebase pod on your project
 ```
