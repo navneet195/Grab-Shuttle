@@ -2,6 +2,11 @@
 GrabShuttle is a new service that allows pre booking car from a list of fixed routes.
 Add project file on your project!
 
+# Create a Firebase project
+In the Firebase console, click Add project, then select or enter a Project name. If you have an existing Google Cloud Platform (GCP) project, you can select the project from the dropdown menu to add Firebase resources to that project.
+
+download GoogleService-Info.plist file and add on your project.
+
 # Cab Service and Live Location Sharing
 The primary feature of Live Location Sharing. Live Location Sharing is useful for:
 
